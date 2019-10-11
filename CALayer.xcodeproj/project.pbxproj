@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04085AE623502ECF00CBDEFB /* FoldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04085AE523502ECF00CBDEFB /* FoldVC.m */; };
+		04085AE9235084D700CBDEFB /* RepeatLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04085AE8235084D700CBDEFB /* RepeatLayerVC.m */; };
 		043F58662341B4CF0043F290 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F58652341B4CF0043F290 /* AppDelegate.m */; };
 		043F58692341B4CF0043F290 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F58682341B4CF0043F290 /* ViewController.m */; };
 		043F586C2341B4CF0043F290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F586A2341B4CF0043F290 /* Main.storyboard */; };
@@ -24,6 +25,8 @@
 /* Begin PBXFileReference section */
 		04085AE423502ECF00CBDEFB /* FoldVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoldVC.h; sourceTree = "<group>"; };
 		04085AE523502ECF00CBDEFB /* FoldVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoldVC.m; sourceTree = "<group>"; };
+		04085AE7235084D700CBDEFB /* RepeatLayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepeatLayerVC.h; sourceTree = "<group>"; };
+		04085AE8235084D700CBDEFB /* RepeatLayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepeatLayerVC.m; sourceTree = "<group>"; };
 		043F58612341B4CF0043F290 /* CALayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043F58642341B4CF0043F290 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		043F58652341B4CF0043F290 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 				043F5883234EC11D0043F290 /* SecondViewController.m */,
 				04085AE423502ECF00CBDEFB /* FoldVC.h */,
 				04085AE523502ECF00CBDEFB /* FoldVC.m */,
+				04085AE7235084D700CBDEFB /* RepeatLayerVC.h */,
+				04085AE8235084D700CBDEFB /* RepeatLayerVC.m */,
 				043F5885234F15B00043F290 /* WheelButton.h */,
 				043F5886234F15B00043F290 /* WheelButton.m */,
 				043F587D234EBF100043F290 /* WheelView.h */,
@@ -172,6 +177,7 @@
 			files = (
 				043F5884234EC11D0043F290 /* SecondViewController.m in Sources */,
 				04085AE623502ECF00CBDEFB /* FoldVC.m in Sources */,
+				04085AE9235084D700CBDEFB /* RepeatLayerVC.m in Sources */,
 				043F5887234F15B00043F290 /* WheelButton.m in Sources */,
 				043F587F234EBF100043F290 /* WheelView.m in Sources */,
 				043F58692341B4CF0043F290 /* ViewController.m in Sources */,
