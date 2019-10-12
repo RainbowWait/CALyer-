@@ -71,7 +71,6 @@
         [button addTarget:self action:@selector(selectedAction:) forControlEvents:UIControlEventTouchUpInside];
         button.layer.transform = CATransform3DMakeRotation(i * 30/180.0 * M_PI, 0, 0, 1);
         [button setBackgroundImage:[UIImage imageNamed:@"LuckyRototeSelected"] forState:UIControlStateSelected];
-//        button.backgroundColor = [UIColor colorWithRed:(arc4random_uniform(256)/255.0) green:(arc4random_uniform(256)/255.0) blue:(arc4random_uniform(256)/255.0) alpha:1];
         if (i == 0) {
             [self selectedAction:button];
         }
@@ -96,7 +95,6 @@
     //点击哪个星座,就把当前的星座指向中心点上面
     //根据选中的按钮获取旋转的度数,通过transform
     CGFloat angle = atan2(self.lastSelectedBtn.transform.b, self.lastSelectedBtn.transform.a);
-    NSLog(@"---%f", angle);
     //旋转转盘
     self.img.transform = CGAffineTransformMakeRotation(-angle);
     

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8Ph-4A-Cus">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BLa-5y-t93">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -69,7 +69,7 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-319.19999999999999" y="-211.84407796101951"/>
+            <point key="canvasLocation" x="-882" y="-180"/>
         </scene>
         <!--Repeat LayerVC-->
         <scene sceneID="Ogj-9D-ard">
@@ -94,7 +94,40 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddF-Lg-5Tj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-904.79999999999995" y="-23.838080959520241"/>
+            <point key="canvasLocation" x="-1518" y="-180"/>
+        </scene>
+        <!--ParticleVC-->
+        <scene sceneID="6Nm-um-Ttx">
+            <objects>
+                <viewController id="BLa-5y-t93" customClass="ParticleVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HAZ-Xy-fhC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFp-Rb-Yvy">
+                                <rect key="frame" x="26" y="20" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="开始动画"/>
+                                <connections>
+                                    <action selector="startAction:" destination="BLa-5y-t93" eventType="touchUpInside" id="rVk-Bm-R3k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lG-lZ-ZWW">
+                                <rect key="frame" x="266" y="20" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="重绘"/>
+                                <connections>
+                                    <action selector="redrawAction:" destination="BLa-5y-t93" eventType="touchUpInside" id="LN9-VE-0Kp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="etv-1k-Zo0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uWX-ea-SC4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1534" y="281"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -127,7 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+            <point key="canvasLocation" x="-238" y="-180"/>
         </scene>
     </scenes>
     <resources>
