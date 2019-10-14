@@ -11,8 +11,8 @@
 		04085AE9235084D700CBDEFB /* RepeatLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04085AE8235084D700CBDEFB /* RepeatLayerVC.m */; };
 		04085AEC23517DB900CBDEFB /* ParticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04085AEB23517DB900CBDEFB /* ParticleView.m */; };
 		04085AEF2351812600CBDEFB /* ParticleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04085AEE2351812600CBDEFB /* ParticleVC.m */; };
-		04085AF22351BA9600CBDEFB /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 04085AF12351BA9600CBDEFB /* Father.m */; };
-		04085AF52351BAA400CBDEFB /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 04085AF42351BAA400CBDEFB /* Son.m */; };
+		04085AF82354116600CBDEFB /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04085AF72354116600CBDEFB /* ReflectionView.m */; };
+		04085AFB235411EA00CBDEFB /* ReflectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04085AFA235411EA00CBDEFB /* ReflectionVC.m */; };
 		043F58662341B4CF0043F290 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F58652341B4CF0043F290 /* AppDelegate.m */; };
 		043F58692341B4CF0043F290 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F58682341B4CF0043F290 /* ViewController.m */; };
 		043F586C2341B4CF0043F290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F586A2341B4CF0043F290 /* Main.storyboard */; };
@@ -35,10 +35,10 @@
 		04085AEB23517DB900CBDEFB /* ParticleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleView.m; sourceTree = "<group>"; };
 		04085AED2351812600CBDEFB /* ParticleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleVC.h; sourceTree = "<group>"; };
 		04085AEE2351812600CBDEFB /* ParticleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleVC.m; sourceTree = "<group>"; };
-		04085AF02351BA9600CBDEFB /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
-		04085AF12351BA9600CBDEFB /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
-		04085AF32351BAA400CBDEFB /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
-		04085AF42351BAA400CBDEFB /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+		04085AF62354116600CBDEFB /* ReflectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		04085AF72354116600CBDEFB /* ReflectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
+		04085AF9235411EA00CBDEFB /* ReflectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReflectionVC.h; sourceTree = "<group>"; };
+		04085AFA235411EA00CBDEFB /* ReflectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReflectionVC.m; sourceTree = "<group>"; };
 		043F58612341B4CF0043F290 /* CALayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043F58642341B4CF0043F290 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		043F58652341B4CF0043F290 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +102,8 @@
 				04085AE8235084D700CBDEFB /* RepeatLayerVC.m */,
 				04085AED2351812600CBDEFB /* ParticleVC.h */,
 				04085AEE2351812600CBDEFB /* ParticleVC.m */,
+				04085AF9235411EA00CBDEFB /* ReflectionVC.h */,
+				04085AFA235411EA00CBDEFB /* ReflectionVC.m */,
 				043F5885234F15B00043F290 /* WheelButton.h */,
 				043F5886234F15B00043F290 /* WheelButton.m */,
 				043F587D234EBF100043F290 /* WheelView.h */,
@@ -111,10 +113,8 @@
 				043F5880234EBF240043F290 /* WheelView.xib */,
 				043F587A234DC3D20043F290 /* DrawView.h */,
 				043F587B234DC3D20043F290 /* DrawView.m */,
-				04085AF02351BA9600CBDEFB /* Father.h */,
-				04085AF12351BA9600CBDEFB /* Father.m */,
-				04085AF32351BAA400CBDEFB /* Son.h */,
-				04085AF42351BAA400CBDEFB /* Son.m */,
+				04085AF62354116600CBDEFB /* ReflectionView.h */,
+				04085AF72354116600CBDEFB /* ReflectionView.m */,
 				043F586A2341B4CF0043F290 /* Main.storyboard */,
 				043F586D2341B4D00043F290 /* Assets.xcassets */,
 				043F586F2341B4D00043F290 /* LaunchScreen.storyboard */,
@@ -196,14 +196,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				043F5884234EC11D0043F290 /* SecondViewController.m in Sources */,
-				04085AF22351BA9600CBDEFB /* Father.m in Sources */,
 				04085AE623502ECF00CBDEFB /* FoldVC.m in Sources */,
-				04085AF52351BAA400CBDEFB /* Son.m in Sources */,
 				04085AE9235084D700CBDEFB /* RepeatLayerVC.m in Sources */,
 				043F5887234F15B00043F290 /* WheelButton.m in Sources */,
 				043F587F234EBF100043F290 /* WheelView.m in Sources */,
+				04085AF82354116600CBDEFB /* ReflectionView.m in Sources */,
 				043F58692341B4CF0043F290 /* ViewController.m in Sources */,
 				04085AEC23517DB900CBDEFB /* ParticleView.m in Sources */,
+				04085AFB235411EA00CBDEFB /* ReflectionVC.m in Sources */,
 				04085AEF2351812600CBDEFB /* ParticleVC.m in Sources */,
 				043F58742341B4D00043F290 /* main.m in Sources */,
 				043F587C234DC3D30043F290 /* DrawView.m in Sources */,

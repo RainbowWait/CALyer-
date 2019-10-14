@@ -10,7 +10,6 @@
 
 #import "ParticleVC.h"
 #import "ParticleView.h"
-#import "Son.h"
 
 @interface ParticleVC ()
 @property (nonatomic, strong)ParticleView *particle;
@@ -24,7 +23,6 @@
     self.particle = [[ParticleView alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.height - 100)];
     self.particle.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.particle];
-    Son *son = [[Son alloc]init];
     
 }
 

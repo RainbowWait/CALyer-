@@ -1,16 +1,16 @@
 //
-//  Father.h
+//  ReflectionVC.h
 //  CALayer
 //
-//  Created by mac on 2019/10/12.
+//  Created by mac on 2019/10/14.
 //  Copyright © 2019 Beijing Zijing Company. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Father : NSObject
+@interface ReflectionVC : UIViewController
 
 @end
 

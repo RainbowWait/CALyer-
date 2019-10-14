@@ -1,16 +1,16 @@
 //
-//  Son.h
+//  ReflectionView.h
 //  CALayer
 //
-//  Created by mac on 2019/10/12.
+//  Created by mac on 2019/10/14.
 //  Copyright © 2019 Beijing Zijing Company. All rights reserved.
 //
 
-#import "Father.h"
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Son : Father
+@interface ReflectionView : UIView
 
 @end
 
